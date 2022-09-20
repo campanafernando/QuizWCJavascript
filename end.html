@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fim de jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Digite seu nome para salvar sua pontuação!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btao" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Salvar</button>
+            </form>
+            <a href="/game.html" class="btao">Jogar novamente</a>
+            <a href="/index.html" class="btao">Página inicial</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>

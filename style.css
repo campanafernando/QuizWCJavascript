@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+:root {
+    background-image: url(https://wallpaperaccess.com/full/6535035.jpg);
+    background-size: 1720px 880px;
+}
+
+#home {
+    background-color: rgb(106, 5, 5);
+    border: solid white 2px;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btao {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(90deg, rgb(179, 171, 171) 0%, rgb(179, 171, 171) 100%);
+    border-radius: 100px;
+}
+
+.btao:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 white;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btao[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+   
+}
+
+#highscore-btao {
+    background: linear-gradient(90deg, rgb(214, 225, 17) 0%, rgb(214, 225, 17) 100%);
+}
+
+#highscore-btao:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(92, 2, 2)
+}
+
+/*Página final CSS*/
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(75, 75, 218);
+}
+
+input::placeholder {
+    color: rgb(211, 203, 203);
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
